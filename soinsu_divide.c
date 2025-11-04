@@ -16,8 +16,8 @@ int prime(int b)
 int main(void)
 {
     int a; int c; int b[100] = { 0 };
-    printf("소인수 분해할 정수 입력: ");
-    scanf(" %d", &c);
+    printf("Prime Factorization: ");
+    scanf("%d", &c);
     printf("%d = ", c);
     for (int i = 0; i < c; i++)
     {
